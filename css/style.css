@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/grape.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #FFFAF3;
+}
+.container{
+    max-width: 1075px;
+    margin: auto;
+}
+header{
+    padding-top: 39px;
+    padding-bottom: 46.5px;
+    width: 470px;
+    border-bottom: 1px solid #C08D5D;
+}
+.logoone{
+    display: inline-block;
+    margin-right: 75px;
+    vertical-align: middle;
+}
+nav{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 52px;
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
+}
+.active:visited{
+    color:  #C08D5D;
+}
+h1{
+    color: #3F4042;
+    font-family: Yeseva One;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+    display: block;
+}
+h1 span{
+    text-transform: capitalize;
+    font-family: Yeseva One;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    display: block;
+}
+h1 span::after{
+    content: url(../images/Logo2.png);
+    display: inline-block;
+    vertical-align: sub;
+    margin-left: 22.64px;
+    margin-top: 122.5px;
+}
+h1::after{
+    content: url(../images/Vectortwo.svg);
+    display: block;
+    margin-bottom: 25.97px;
+}
+p{
+    width: 535px;
+    color: #3F4042;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 147.6%;
+    letter-spacing: 1.08px;
+    margin-bottom: 72px; ;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #3F4042;
+    font-family: Open Sans;
+    border: 2px solid #C08D5D;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 147.6%;
+    letter-spacing: 1.2px;
+    padding-left: 15px;
+    vertical-align: middle;
+    
+}
+.button::after{
+    content: url(../images/Vector.svg);
+    display: inline-block;
+    width: 59px;
+    height: 62px;
+    line-height: 147.6%;
+    background-color: #C08D5D;
+    margin-left: 11px;
+    vertical-align: middle;
+}
+.mous{
+    display: block;
+    margin-left: 537.5px;
+    margin-top: 62px;
+    margin-bottom: 68.6px;
+}
+
+
